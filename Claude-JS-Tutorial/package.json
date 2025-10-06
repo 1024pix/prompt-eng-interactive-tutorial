@@ -1,0 +1,30 @@
+{
+  "name": "claude-prompt-engineering-tutorial-js",
+  "version": "1.0.0",
+  "description": "Anthropic's Prompt Engineering Interactive Tutorial - JavaScript Edition",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node tutorials/00_Tutorial_How-To.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "anthropic",
+    "claude",
+    "prompt-engineering",
+    "ai",
+    "tutorial",
+    "javascript"
+  ],
+  "author": "Anthropic (JavaScript adaptation)",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.30.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
