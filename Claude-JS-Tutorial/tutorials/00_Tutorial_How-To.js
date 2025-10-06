@@ -31,12 +31,12 @@ console.log('# Tutorial How-To - JavaScript Edition\n');
  */
 
 // Configuration
-const API_KEY = process.env.ANTHROPIC_API_KEY || "your_api_key_here";
+const API_KEY = process.env.TUTORIAL_ANTHROPIC_API_KEY || "your_api_key_here";
 const MODEL_NAME = process.env.MODEL_NAME || "claude-3-haiku-20240307";
 const RUN = (process.env.RUN || "EXAMPLES").toUpperCase();
 
 if (API_KEY === "your_api_key_here") {
-    console.error("❌ Please set your ANTHROPIC_API_KEY in the .env file before continuing.");
+    console.error("❌ Please set your TUTORIAL_ANTHROPIC_API_KEY in the .env file before continuing.");
     console.log("Copy .env.example to .env and add your actual API key.\n");
     process.exit(1);
 }

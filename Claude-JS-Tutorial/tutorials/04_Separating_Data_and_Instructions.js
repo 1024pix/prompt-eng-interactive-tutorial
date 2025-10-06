@@ -145,7 +145,7 @@ async function exercise4_1() {
     const TOPIC = "Pigs";
 
     // TODO: Create a prompt template that uses the TOPIC variable
-    const PROMPT = `[Replace this text]`; // Replace this with your solution
+    const PROMPT = ``;
 
     const response = await getCompletion(PROMPT);
 
@@ -176,7 +176,7 @@ async function exercise4_2() {
     const QUESTION = "ar cn brown?";
 
     // TODO: Add XML tags around the QUESTION variable to fix the prompt
-    const PROMPT = `[Replace this text]`; // Replace this with your solution
+    const PROMPT = `Hia its me i have a q about dogs jkaerjv ${QUESTION} jklmvca tx it help me muhch much atx fst fst answer short short tx`;
 
     const response = await getCompletion(PROMPT);
 
@@ -207,7 +207,7 @@ async function exercise4_3() {
     const QUESTION = "ar cn brown?";
 
     // TODO: Remove one or two words to fix the prompt (no XML tags this time!)
-    const PROMPT = `[Replace this text]`; // Replace this with your solution
+    const PROMPT = `Hia its me i have a q about dogs jkaerjv ${QUESTION} jklmvca tx it help me muhch much atx fst fst answer short short tx`;
 
     const response = await getCompletion(PROMPT);
 

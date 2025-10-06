@@ -262,7 +262,7 @@ console.log("node tutorials/YY_Next_Chapter.js");
 ### Environment Variables
 ```bash
 # .env
-ANTHROPIC_API_KEY=your_actual_api_key
+TUTORIAL_ANTHROPIC_API_KEY=your_actual_api_key
 MODEL_NAME=claude-3-haiku-20240307
 ```
 

@@ -155,7 +155,7 @@ async function exercise8_1() {
     console.log('      Give Claude permission to decline answering.');
     console.log('Grading: Must contain uncertainty phrase AND not mention "2022"\n');
 
-    const PROMPT = "[Replace this text]";
+    const PROMPT = "In what year did star performer Beyoncé release her eighth studio album?";
 
     const response = await getCompletionWithPrefill(PROMPT);
 
@@ -181,7 +181,7 @@ async function exercise8_2() {
     console.log('      Answer: "49-fold" growth from Dec 2018 to Dec 2022');
     console.log('Grading: Response must contain "49-fold"\n');
 
-    const PROMPT = `[Replace this text]
+    const PROMPT = `From December 2018 to December 2022, by what amount did Matterport's subscribers grow?
 
 <document>
 ${MATTERPORT_DOCUMENT}

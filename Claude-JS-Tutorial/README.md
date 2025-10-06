@@ -12,7 +12,7 @@ This course is intended to provide you with a comprehensive step-by-step underst
 
 ## Course Structure and Content
 
-This course is structured to allow you many chances to practice writing and troubleshooting prompts yourself. The course is broken up into **9 chapters with accompanying exercises**, as well as an appendix of even more advanced methods. It is intended for you to **work through the course in chapter order**.
+This course is structured to allow you many chances to practice writing and troubleshooting prompts yourself. The course is broken up into **10 chapters with accompanying exercises** (Chapters 0-9), as well as **3 appendix chapters** covering advanced methods. It is intended for you to **work through the course in chapter order**.
 
 **Each lesson has executable JavaScript code** where you can experiment with the examples in the lesson and see for yourself how changing prompts can change Claude's responses. There is also an [answer key](https://docs.google.com/spreadsheets/d/1jIxjzUWG-6xBVIa2ay6yDpLyeuOh_hR_ZB75a47KX_E/edit?usp=sharing) for the original Python version.
 
@@ -131,7 +131,11 @@ Each chapter consists of a lesson and a set of exercises.
 - **Exercise Validation**: Automated grading functions for exercises
 - **Helpful Hints**: JavaScript-specific hints for each exercise
 - **Error Handling**: Robust error handling for API calls
-- **Complete Course Content**: All 10 chapters including appendix chapters fully implemented
+
+### 🎯 Future Enhancements
+- Additional exercise validations
+- More comprehensive error messages
+- Interactive web-based version
 
 ## Usage Notes & Tips 💡
 
@@ -160,13 +164,13 @@ Claude-JS-Tutorial/
 
 ## Contributing
 
-Contributions are welcome! When adding new content or improvements:
+To implement the remaining tutorials (Chapters 4-10):
 
-1. Use the `tutorial-template.js` as a starting point for new tutorials
-2. Follow the patterns established in existing chapters
-3. Ensure all exercises have proper grading functions
-4. Test with various prompts to ensure robustness
-5. Update this README with any new features or changes
+1. Use the `tutorial-template.js` as a starting point
+2. Convert the corresponding `.ipynb` file from the `Anthropic 1P` directory
+3. Follow the patterns established in Chapters 1-3
+4. Ensure all exercises have proper grading functions
+5. Test with various prompts to ensure robustness
 
 ## API Reference
 
@@ -180,7 +184,7 @@ This tutorial uses the [Anthropic JavaScript SDK](https://docs.claude.com/en/doc
 
 ### Common Issues
 
-1. **API Key Errors**: Make sure your `.env` file has the correct `ANTHROPIC_API_KEY`
+1. **API Key Errors**: Make sure your `.env` file has the correct `TUTORIAL_ANTHROPIC_API_KEY`
 2. **Module Import Errors**: Ensure you're using Node.js 18+ with ES modules support
 3. **Rate Limiting**: If you hit rate limits, add delays between API calls
 

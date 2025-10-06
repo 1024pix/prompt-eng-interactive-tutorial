@@ -136,7 +136,7 @@ async function exercise6_1() {
     console.log('      (D) Other (please explain)');
     console.log('Grading: Must output correct letter with parentheses and category name\n');
 
-    const PROMPT = "[Replace this text]";
+    const PROMPT = "Please classify this email as either green or blue: {email}";
     const PREFILL = "";
 
     const EMAILS = [
@@ -192,7 +192,7 @@ async function exercise6_2() {
     console.log('      Example: <answer>B</answer>');
     console.log('Grading: Must have exact format <answer>X</answer> where X is correct letter\n');
 
-    const PROMPT = "[Replace this text]";
+    const PROMPT = "Please classify this email as either green or blue: {email}";
     const PREFILL = "";
 
     const EMAILS = [

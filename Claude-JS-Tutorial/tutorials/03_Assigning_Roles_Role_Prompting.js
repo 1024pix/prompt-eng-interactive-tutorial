@@ -108,7 +108,7 @@ async function exercise3_1() {
     console.log("The grading function looks for 'incorrect' or 'not correct' in the response.\n");
 
     // TODO: Modify this system prompt to help Claude be better at math
-    const SYSTEM_PROMPT = "[Replace this text]"; // Modify this
+    const SYSTEM_PROMPT = ""; // Modify this
 
     // TODO: You can also modify this prompt if needed
     const PROMPT = `Is this equation solved correctly below?

@@ -145,7 +145,7 @@ async function exercise7_1() {
     console.log('  (D) Other (please explain)');
     console.log('Grading: Last character must be correct category letter\n');
 
-    const PROMPT = "[Replace this text]";
+    const PROMPT = "Please classify this email as either green or blue: {email}";
     const PREFILL = "";
 
     const EMAILS = [

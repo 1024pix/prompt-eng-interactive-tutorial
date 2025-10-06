@@ -131,7 +131,7 @@ async function exercise5_1() {
     console.log('Grading: Checks if response mentions "Warrior"\n');
 
     const PROMPT = "Who is the best basketball player of all time? Please choose one specific player.";
-    const PREFILL = "[Replace this text]";
+    const PREFILL = "";
 
     const response = await getCompletionWithPrefill(PROMPT, "", PREFILL);
 
@@ -158,7 +158,7 @@ async function exercise5_2() {
     console.log('Grading: Checks for "cat" mention, <haiku> tags, and >5 lines\n');
 
     const ANIMAL = "cats";
-    const PROMPT = "[Replace this text]";
+    const PROMPT = `Please write a haiku about ${ANIMAL}. Put it in <haiku> tags.`;
     const PREFILL = "<haiku>";
 
     const response = await getCompletionWithPrefill(PROMPT, "", PREFILL);
@@ -191,7 +191,7 @@ async function exercise5_3() {
 
     const ANIMAL1 = "Cat";
     const ANIMAL2 = "Dog";
-    const PROMPT = "[Replace this text]";
+    const PROMPT = `Please write a haiku about ${ANIMAL1}. Put it in <haiku> tags.`;
 
     const response = await getCompletionWithPrefill(PROMPT);
 
