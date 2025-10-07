@@ -1,5 +1,12 @@
 # Welcome to Anthropic's Prompt Engineering Interactive Tutorial
 
+## How to get an Anthropic API Key
+
+- First, go to the Anthropic console, and create a [individual org](https://console.anthropic.com/) account : https://console.anthropic.com/ (I would suggest to use an alas like me**+apikey**@email.com)
+- you'll get a free $5 for one year, that allows you to setup an API key
+
+https://zapier.com/blog/claude-api/#connections 
+
 ## Course introduction and goals
 
 This course is intended to provide you with a comprehensive step-by-step understanding of how to engineer optimal prompts within Claude.

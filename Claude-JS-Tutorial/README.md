@@ -24,6 +24,13 @@ Note: This tutorial uses our smallest, fastest, and cheapest model, Claude 3 Hai
 - Node.js 18.0.0 or higher
 - An Anthropic API key ([sign up here](https://console.anthropic.com/))
 
+## How to get an Anthropic API Key
+
+- First, go to the Anthropic console, and create a [individual org](https://console.anthropic.com/) account : https://console.anthropic.com/ (I would suggest to use an alas like me**+apikey**@email.com)
+- you'll get a free $5 for one year, that allows you to setup an API key
+
+https://zapier.com/blog/claude-api/#connections 
+
 ### Installation
 
 1. **Clone this repository to your local machine:**
